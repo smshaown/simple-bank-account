@@ -6,11 +6,11 @@ document.getElementById('login-submit').addEventListener('click', function() {
     const userPassword = passwordField.value;
   
 
-    if(userEmail == 'smshaown65@gmail.com' && userPassword == 'secret'){
+    if(userEmail == 'smshaown65@gmail.com' && userPassword == 'shaown'){
        window.location.href = 'banking.html';
     }
 })
 
 
 // Handle deposit button event
-doc
+document.getE
