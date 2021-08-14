@@ -9,16 +9,16 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
+    
+    <!-- Balance and transaction -->
 
-
-
-    <header class="text-5xl text-center mt-16">Let's get some <span>money</span></header>
-    <main>
+    <header class="text-5xl text-center mt-8">Let's get some <span>money</span></header>
+    <main class="w-3/4 mx-auto">
         <section class="mt-8">
-            <div class="grid grid-flow-col grid-cols-3 gap-4 w-3/4 mx-auto text-white">
+            <div class="grid grid-flow-col grid-cols-3 gap-4 text-white">
                 <div class="bg-blue-400 p-8 rounded">
                     <h3 class="text-2xl">Deposit</h3>
-                    <h4 class="text-4xl">$600</h4>
+                    <h4 class="text-4xl">$00</h4>
                 </div>
                 <div class="bg-green-300 p-8 rounded">
                     <h3 class="text-2xl">Withdrow</h3>
@@ -30,6 +30,30 @@
                 </div>                
             </div>
         </section>
+        
+        <!-- Deposit and withdraw -->
+
+        <section class="mt-8"> 
+            <div class="grid grid-flow-col grid-clos-2 gap-4">
+
+                <!-- Please Deposit -->
+               <div class="bg-red-100 p-8 rounded">
+                <h3 class="text-2xl">Please Deposit</h3>
+                <div>
+                    <input id="deposit-input" class="border block border-gray-400 rounded w-3/4 mb-4 px-2"  type="text" placeholder="$ amount your want to deposit">                  
+                    <button id="deposit-button" class="bg-yellow-600 px-4 rounded text-white font-medium" >Deposit</button>
+                </div>
+               </div>
+               <!-- Please withdraw -->
+               <div class="bg-purple-100 p-8 rounded">
+                <h3 class="text-2xl">Please withdraw</h3>
+                <div>
+                    <input id="withdraw-input" class="border block border-gray-400 rounded w-3/4 mb-4 px-2"  type="text" placeholder="$ amount your want to withdraw">                  
+                    <button id="withdraw-button" class="bg-yellow-600 px-4 rounded text-white font-medium" >withdraw</button>
+                </div>
+               </div>
+            </div>
+        </section> 
     </main>
     
 </body>
