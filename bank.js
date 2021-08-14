@@ -7,6 +7,6 @@ document.getElementById('login-submit').addEventListener('click', function() {
   
 
     if(userEmail == 'smshaown65@gmail.com' && userPassword == 'secret'){
-       window.location.href = 'https://github.com/smshaown';
+       window.location.href = 'banking.html';
     }
 })
